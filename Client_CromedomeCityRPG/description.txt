@@ -1,0 +1,3 @@
+Title : Cromedome's CityRPG Client
+Author : Pacnet2012
+Works with Cromedome's CityRPG.

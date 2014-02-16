@@ -1,0 +1,14 @@
+----------
+Pacnet Addon Description
+
+Effective November 17th All Pacnet2011 - Pacnet2012 addons will include a PacDesc.txt file
+
+If it doesn't have it, It's not by me!
+----------
+name
+PN id
+----------
+pacCity3Beta
+16
+
+paccity 3 beta gamemode.

@@ -1,0 +1,138 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(CromeReset) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "78 109";
+      extent = "552 180";
+      minExtent = "8 2";
+      visible = "1";
+      color = "89 89 89 150";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "79 153";
+      extent = "552 2";
+      minExtent = "8 2";
+      visible = "1";
+      color = "0 0 0 225";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "88 126";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989>Cromedome\'s <color:00ff00> CityRPG : <color:ff00ff> Reset";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "85 163";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:000000>Are you sure? You can\'t undo this action!";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "116 207";
+      extent = "139 51";
+      minExtent = "8 2";
+      visible = "1";
+      color = "150 150 150 150";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "402 207";
+      extent = "139 51";
+      minExtent = "8 2";
+      visible = "1";
+      color = "150 150 150 150";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "142 216";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:000000>OK";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "412 214";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:000000>Oops, no!";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiButtonBaseCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "117 200";
+      extent = "142 64";
+      minExtent = "8 2";
+      visible = "1";
+      command = "commandToServer(\'reset\');";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+   new GuiButtonBaseCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "399 203";
+      extent = "142 64";
+      minExtent = "8 2";
+      visible = "1";
+      command = "canvas.popDialog(CromeReset); canvas.pushDialog(CromeMain);";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+};
+//--- OBJECT WRITE END ---

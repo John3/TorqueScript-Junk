@@ -1,0 +1,36 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiWindowCtrl(PACCITY_Error) {
+   profile = "GuiWindowProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "200 100";
+   minExtent = "8 2";
+   visible = "1";
+   text = "Error";
+   maxLength = "255";
+   resizeWidth = "1";
+   resizeHeight = "1";
+   canMove = "1";
+   canClose = "1";
+   canMinimize = "1";
+   canMaximize = "1";
+   minSize = "50 50";
+
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "12 33";
+      extent = "174 32";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:32>Can\'t do that.";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+};
+//--- OBJECT WRITE END ---

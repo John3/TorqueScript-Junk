@@ -1,0 +1,3 @@
+Title : HammerPacnet
+Author : Pacnet2013
+Support for servers hosted by Hammereditor or Pacnet2013

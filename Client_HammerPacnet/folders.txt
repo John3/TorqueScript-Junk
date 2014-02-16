@@ -1,0 +1,9 @@
++ Client_HammerPacnet
+|
+|-weapon : any weapon database files are stored here
+|-script : the scripts for the GUIs are stored here
+|-image : any images, icons, etc. are stored here
+|-gui : the gui files are stored here
+|-folders.txt : a description of the files in this addon
+|-description.txt : the description
+|-client.cs : the code to execute all other things

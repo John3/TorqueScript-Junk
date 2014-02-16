@@ -1,0 +1,123 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(CromeEducation) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "72 137";
+      extent = "472 231";
+      minExtent = "8 2";
+      visible = "1";
+      color = "89 89 89 150";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "73 181";
+      extent = "470 2";
+      minExtent = "8 2";
+      visible = "1";
+      color = "0 0 0 225";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "79 155";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989>Cromedome\'s <color:00ff00> CityRPG : <color:ff00ff> Education";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "84 195";
+      extent = "166 62";
+      minExtent = "8 2";
+      visible = "1";
+      color = "150 150 150 150";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "89 214";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:000000>Apply";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "271 195";
+      extent = "166 62";
+      minExtent = "8 2";
+      visible = "1";
+      color = "150 150 150 150";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "277 211";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:000000>Current Level";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiButtonBaseCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "81 195";
+      extent = "174 64";
+      minExtent = "8 2";
+      visible = "1";
+      command = "crome_applyeducation();";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+   new GuiButtonBaseCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "268 194";
+      extent = "174 64";
+      minExtent = "8 2";
+      visible = "1";
+      command = "crome_leveleducation();";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+};
+//--- OBJECT WRITE END ---

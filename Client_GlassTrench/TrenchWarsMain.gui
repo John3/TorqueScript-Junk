@@ -1,0 +1,102 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(TrenchWarsMain) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+
+   new GuiWindowCtrl() {
+      profile = "BlockWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "209 154";
+      extent = "221 172";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Glass\' Trench Wars Main";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "canvas.popDialog(TrenchWarsMain);";
+
+      new GuiBitmapButtonCtrl(TW_Donate) {
+         profile = "BlockButtonProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "7 77";
+         extent = "207 36";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         command = "canvas.pushDialog(TrenchWarsDonate); alxPlay(UploadEndSound);";
+         text = "Donate Points";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 7 50 255";
+            wrap = "0";
+      };
+      new GuiBitmapButtonCtrl(TW_CaptureMap) {
+         profile = "BlockButtonProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "7 33";
+         extent = "207 36";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         command = "canvas.pushDialog(TrenchWarsMap); alxPlay(UploadEndSound);";
+         text = "Capture Map";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "50 130 255 255";
+            wrap = "0";
+      };
+      new GuiBitmapButtonCtrl(TW_Stats) {
+         profile = "BlockButtonProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "7 121";
+         extent = "207 36";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         command = "canvas.pushDialog(TrenchWarsStats); alxPlay(UploadEndSound);";
+         text = "Stats";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "0 255 50 255";
+            wrap = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

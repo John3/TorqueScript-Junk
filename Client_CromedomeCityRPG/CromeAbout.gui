@@ -1,0 +1,149 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(CromeAbout) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "97 126";
+      extent = "552 497";
+      minExtent = "8 2";
+      visible = "1";
+      color = "89 89 89 150";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "107 143";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989>Cromedome\'s <color:00ff00> CityRPG : <color:ff00ff> About";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "98 170";
+      extent = "552 2";
+      minExtent = "8 2";
+      visible = "1";
+      color = "0 0 0 225";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "105 180";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989>Host : Cromedome";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "105 180";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989>Host : Cromedome";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "103 213";
+      extent = "530 29";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989> Server : CityRPG";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "102 247";
+      extent = "530 87";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:30><color:898989> This GUI system was made to work with Cromedome\'s CityRPG and can help you do actions here without typing in commands.";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "104 601";
+      extent = "530 20";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:20>Cromedome\'s CityRPG - 2012";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "614 133";
+      extent = "30 36";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:36><color:FF0000>X";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiButtonBaseCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "604 133";
+      extent = "41 41";
+      minExtent = "8 2";
+      visible = "1";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,197 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(PACCITY_StatsOverlay) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "12 426";
+      extent = "73 16";
+      minExtent = "8 2";
+      visible = "1";
+      color = "123 123 123 2";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "17 425";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18> Cash : $";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl(PACCITY_OVERLAY_CASH) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "65 425";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18>0";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "223 392";
+      extent = "64 20";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:20> PacCity 3";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "137 425";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18> Hunger : %";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "276 425";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18> Job :";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl(PACCITY_OVERLAY_HUNGER) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "202 425";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18>0";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl(PACCITY_OVERLAY_JOB) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "309 426";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18>HOBO";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl() {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "454 426";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18>Bank : $";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiMLTextCtrl(PACCITY_OVERLAY_BCASH) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "503 426";
+      extent = "64 18";
+      minExtent = "8 2";
+      visible = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:18>0";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "142 427";
+      extent = "73 16";
+      minExtent = "8 2";
+      visible = "1";
+      color = "123 123 123 2";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "272 424";
+      extent = "80 19";
+      minExtent = "8 2";
+      visible = "1";
+      color = "123 123 123 2";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "448 427";
+      extent = "70 16";
+      minExtent = "8 2";
+      visible = "1";
+      color = "123 123 123 2";
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "217 388";
+      extent = "80 28";
+      minExtent = "8 2";
+      visible = "1";
+      color = "100 100 100 2";
+   };
+};
+//--- OBJECT WRITE END ---
