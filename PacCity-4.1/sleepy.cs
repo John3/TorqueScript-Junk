@@ -9,17 +9,17 @@ function PacCity_Rest(%client)
 {
 	if(%client.isAsleeep)
 	{
-		%client.sleepy = 100;
-		messageClient(%client, '', '\c4You are at 100 percent tiredness level.');
+		%client.sleepy = 100; //this is horrible
+		messageClient(%client, '', '\c4Your fatigue level is at 100 percent.');
 	}
 	else
 	{
 		%client.sleepy = %client.sleepy - 5;
 		if(%client.sleepy == 5)
 		{
-			messageClient(%client, '', '\c4Your tiredness level is five percent! You will automatically go to sleep in one more day if you do not type /goToSleep.');
+			messageClient(%client, '', '\c4Your fatigue level is five percent! You will automatically go to sleep in one more day if you do not type /goToSleep.');
 		}
-		else if(%client.sleep == 0)
+		else if(%client.sleepy == 0)
 		{
 			%client.isAsleep = true;
 			%client.forceSleep = true;
